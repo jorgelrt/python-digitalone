@@ -21,6 +21,17 @@ print('Soma: {soma}\n'
       'Multiplicação: {mult}\n'
       'Resto: {resto}'.format(soma = soma, sub = subtracao, div = divisao, mult = multiplicacao, resto = resto))
 
+#Colocando toda a saída numa string
+saidaTexto = ('Soma: {soma}\n'
+      'Subtração: {sub}\n'
+      'Divisão: {div}\n'
+      'Multiplicação: {mult}\n'
+      'Resto: {resto}'.format(soma = soma, sub = subtracao, div = divisao, mult = multiplicacao, resto = resto))
+
+print(saidaTexto)
+
+
+
 
 
 
