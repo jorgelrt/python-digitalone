@@ -1,6 +1,7 @@
 a = int(input('Informe um número: '))
-if a%2 == 0:
-    print('Número é par!')
+b = int(input('Informe outro número: '))
+if a%2 == 0 or b%2 ==0:
+    print('Um dos números ou os dois números são pares')
 else:
-    print('Número é impar')
+    print('Nenhum dos números são ímpares')
 
