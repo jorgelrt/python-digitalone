@@ -11,6 +11,7 @@ multiplicacao = a*b
 divisao = a/b
 resto = a%b
 
+
 #Para saber qual tipo é uma variável utilize type().
 print('type(soma) = ' + str(type(soma)))
 
