@@ -8,10 +8,10 @@ multiplicacao = a*b
 divisao = a/b
 resto = a%b
 
-#Saída padrão - Não importa o tipo, .format realiza a concatenacao na string
-print('Soma: {}, Subtracao: {}'.format(soma, subtracao))#que q estar na ordem
+#Saída padrão - Não importa o tipo, .format realiza a concatenacao na string. Qdo não informado alias entre chaves, atentar p/ ordem
+print('Soma: {}, Subtracao: {}'.format(soma, subtracao))
 
-#Sem precisar de colocar na ordem, informamos um alias dentro da chave
+#Para colocar na ordem, informamos um alias dentro da chave
 print('Soma: {soma}, Subtracao: {sub}'.format(sub = subtracao, soma = soma))
 
 #Em linhas separadas sem usa um outro print com \n
